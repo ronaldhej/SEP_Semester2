@@ -1,0 +1,28 @@
+
+
+#adminButton
+{
+    -fx-font-family: "Calibri";
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-radius: 0;
+}
+
+#adminButton:hover
+{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10,0,0,0);
+}
+
+#searchTextField
+{
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 20,0,0,5);
+    -fx-font-family: Calibri;
+    -fx-font-size: 18;
+}
+
+#searchTextField:focused
+{
+    -fx-border-style: none none solid none;
+    -fx-border-width: 0 0 5 0;
+    -fx-border-color: #7ed1ff;
+}

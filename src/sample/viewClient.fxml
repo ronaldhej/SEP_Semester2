@@ -6,9 +6,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.viewClient">
+<Pane maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.viewClient">
    <children>
-      <Button fx:id="adminButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="65.0" text="Admin" />
+      <Button fx:id="adminButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#adminButtonPressed" prefHeight="32.0" prefWidth="65.0" text="Admin" />
       <TextField fx:id="searchTextField" layoutX="167.0" layoutY="102.0" prefHeight="45.0" prefWidth="467.0" />
       <Label layoutX="375.0" layoutY="69.0" text="Search">
          <font>

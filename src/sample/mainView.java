@@ -8,9 +8,9 @@ import javafx.stage.Stage;
 
 public class mainView
 {
-    private Stage primaryStage;
+    private static Stage primaryStage;
     private viewClient currentView;
-    private viewModelClient viewModel;
+    private static viewModelClient viewModel;
 
     public mainView(viewModelClient viewModel)
     {
@@ -43,5 +43,11 @@ public class mainView
         primaryStage.setTitle(currentView.getTitle());
         primaryStage.show();
     }
+
+    public static Stage getPrimaryStage()
+    {
+        return primaryStage;
+    }
+    public static viewModelClient getViewModelClient(){return viewModel;}
 
 }
